@@ -1,5 +1,5 @@
 function run_demo()
-% Minimal end-to-end OTFS demo: bits -> OTFS -> channel -> demod -> MP detector
+% Minimal end to end OTFS demo: bits -> OTFS -> channel -> demod -> MP detector
 clc; close all;
 
 % ---- Parameters ----

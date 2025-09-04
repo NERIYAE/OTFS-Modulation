@@ -1,6 +1,6 @@
 function [taps, delay_taps, Doppler_taps, chan_coef] = OTFS_channel_gen(N, M)
 % Scenario: moving user at 120 km/h, carrier 2 GHz, range 30 km
-% Generates a simple 3-tap OTFS channel with delay and Doppler indices.
+% Generates a simple 3 tap OTFS channel with delay and Doppler indices.
 % This demo version adapts parameters for clarity.
 
 c   = 3e8;               % speed of light [m/s]

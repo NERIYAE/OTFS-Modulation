@@ -1,9 +1,9 @@
 # OTFS Modulation Demo (MATLAB)
 
-Minimal end-to-end demo of **how OTFS works**: bits → QAM on the delay–Doppler grid → ISFFT/Heisenberg for TX → channel with delay+Doppler → demodulation (Wigner+SFFT) → Message-Passing detection → BER.
+Minimal end to end demo of **how OTFS works**: bits → QAM on the delay Doppler grid → ISFFT/Heisenberg for TX → channel with delay+Doppler → demodulation (Wigner+SFFT) → Message Passing detection → BER.
 
 ## What’s included
-- `matlab/run_demo.m` — single entry point.
+- `matlab/run_demo.m`   single entry point.
 - Core functions: `OTFS_modulation.m`, `OTFS_demodulation.m`, `OTFS_channel_gen.m`, `OTFS_channel_output.m`, `OTFS_mp_detector.m`.
 
 ## Requirements
@@ -16,13 +16,13 @@ Minimal end-to-end demo of **how OTFS works**: bits → QAM on the delay–Doppl
    run_demo
    ```
 3. You will see:
-   - Delay–Doppler magnitude maps before and after the channel.
+   - Delay Doppler magnitude maps before and after the channel.
    - Detected constellation vs. ideal constellation.
    - BER printed in the console.
 
 ## Repository layout
 ```
-otfs-otfs-demo/
+otfs otfs demo/
 ├─ matlab/
 │  ├─ run_demo.m
 │  ├─ OTFS_modulation.m

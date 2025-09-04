@@ -22,7 +22,7 @@ Minimal end to end demo of **how OTFS works**: bits → QAM on the delay Doppler
 
 ## Repository layout
 ```
-otfs otfs demo/
+otfs/
 ├─ matlab/
 │  ├─ run_demo.m
 │  ├─ OTFS_modulation.m

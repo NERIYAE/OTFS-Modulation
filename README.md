@@ -15,7 +15,6 @@ Minimal end-to-end demo of **how OTFS works**: bits → QAM on the delay–Doppl
 2. Run:
    ```matlab
    run_demo
-````
 
 3. You will see:
 
@@ -24,8 +23,6 @@ Minimal end-to-end demo of **how OTFS works**: bits → QAM on the delay–Doppl
    * BER printed in the console.
 
 ## Repository layout
-
-```
 otfs-otfs-demo/
 ├─ matlab/
 │  ├─ run_demo.m
@@ -35,10 +32,9 @@ otfs-otfs-demo/
 │  ├─ OTFS_channel_output.m
 │  └─ OTFS_mp_detector.m
 ```
-
 ## Notes
 
 * Demo defaults: QPSK, `N = 32`, `M = 32`, and a simple 3 tap channel with delay and Doppler indices.
 * Plots are enabled for quick visual inspection.
 
-```
+

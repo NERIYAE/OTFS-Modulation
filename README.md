@@ -1,6 +1,4 @@
 
-
-````markdown
 # OTFS Modulation Demo (MATLAB)
 
 Minimal end-to-end demo of **how OTFS works**: bits → QAM on the delay–Doppler grid → ISFFT/Heisenberg for TX → channel with delay+Doppler → demodulation (Wigner+SFFT) → Message-Passing detection → BER.
@@ -43,7 +41,4 @@ otfs-otfs-demo/
 * Demo defaults: QPSK, `N = 32`, `M = 32`, and a simple 3-tap channel with delay and Doppler indices.
 * Plots are enabled for quick visual inspection.
 
-```
-
-Based on your Hebrew draft README. :contentReference[oaicite:0]{index=0}
 ```

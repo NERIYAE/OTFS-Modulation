@@ -7,7 +7,6 @@ yv = reshape(y,N*M,1);
 n_ite   = 200;
 delta_fra = 0.6;
 
-% -----  שינוי: יצירת האלפבית עם התחביר החדש  -----
 alphabet = qammod((0:M_mod-1).', M_mod, 'gray', ...
                   'InputType','integer', ...
                   'UnitAveragePower',false);
@@ -134,7 +133,5 @@ title('MP-detector output');
 axis equal; grid on;
 legend('Detected symbols');
 title('MP-detector output'); axis equal; grid on; drawnow;
-
-
 
 end

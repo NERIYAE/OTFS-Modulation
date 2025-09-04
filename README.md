@@ -4,7 +4,7 @@
 Minimal end-to-end demo of **how OTFS works**: bits → QAM on the delay–Doppler grid → ISFFT/Heisenberg for TX → channel with delay+Doppler → demodulation (Wigner+SFFT) → Message-Passing detection → BER.
 
 ## What’s included
-- `matlab/run_demo.m` — single entry point.
+- `matlab/run_demo.m`  single entry point.
 - Core functions: `OTFS_modulation.m`, `OTFS_demodulation.m`, `OTFS_channel_gen.m`, `OTFS_channel_output.m`, `OTFS_mp_detector.m`.
 
 ## Requirements
@@ -19,7 +19,7 @@ Minimal end-to-end demo of **how OTFS works**: bits → QAM on the delay–Doppl
 
 3. You will see:
 
-   * Delay–Doppler magnitude maps before and after the channel.
+   * Delay Doppler magnitude maps before and after the channel.
    * Detected constellation vs. ideal constellation.
    * BER printed in the console.
 
@@ -38,7 +38,7 @@ otfs-otfs-demo/
 
 ## Notes
 
-* Demo defaults: QPSK, `N = 32`, `M = 32`, and a simple 3-tap channel with delay and Doppler indices.
+* Demo defaults: QPSK, `N = 32`, `M = 32`, and a simple 3 tap channel with delay and Doppler indices.
 * Plots are enabled for quick visual inspection.
 
 ```
